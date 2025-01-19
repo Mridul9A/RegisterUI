@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .row-1, .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .row-1 {
+    margin-bottom: 40px;
+  }
+  
+  .col-1 {
+    flex: 0 0 50%;
+    padding: 20px;
+  }
+  
+  .col-1 h3 {
+    font-size: 20px;
+    color: #1c4670;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .col-1 h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .col-1 p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .col-2, .col-3, .col-4 {
+    flex: 0 0 25%;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Icon inside Card */
+  .card .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    background-color: #1c4670;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
+  .card h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1c4670;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+
+  .card:nth-child(1) {
+    background-color: #e8f4f8; 
+  }
+  
+  .card:nth-child(2) {
+    background-color: #fbe9e7; 
+  }
+  
+  .card:nth-child(3) {
+    background-color: #f3e5f5; 
+  }
+  
+  .card:nth-child(4) {
+    background-color: #e8f5e9;
+  }
+  
+  .card:nth-child(5) {
+    background-color: #fffde7; 
+  }
+  
+
+  .row-2 .col-1 {
+    flex: 0 0 25%;
+  }
+
+  #r2{
+    background-color: rgb(238, 188, 188);
+  }
+  #r3{
+    background-color: rgb(220, 243, 213);
+  }
+  #r5{
+    background-color: rgb(211, 223, 240);
+  }
+  #r6{
+    background-color: rgb(241, 209, 232);
+  }
+  #r7{
+    background-color: rgb(210, 233, 235);
+  }
+  
+
+  @media (max-width: 768px) {
+    .col-1, .col-2, .col-3, .col-4 {
+      flex: 0 0 100%;
+      text-align: center;
+    }
+  
+    .row-1, .row-2 {
+      padding: 10px;
+    }
+  
+    .col-1 {
+      padding-bottom: 30px;
+    }
+  }
+  

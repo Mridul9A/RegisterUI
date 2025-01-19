@@ -1,0 +1,83 @@
+.faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .title{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .faq-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .faq-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .faq-question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .faq-question:hover {
+    color: #007bff;
+  }
+  
+  .faq-answer {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  
+  .faq-icon {
+    font-size: 1.2rem;
+    color: #888;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-question:hover .faq-icon {
+    color: #007bff;
+  }
+  
+  .bottom5 {
+    text-align: center; 
+    margin-top: 30px;   
+}
+
+.bottom5 button {
+    padding: 10px 20px;  
+    font-size: 16px;    
+    background-color: #1c4670; 
+    color: white;         
+    border: none;         
+    border-radius: 5px;  
+    cursor: pointer;      
+    transition: background-color 0.3s;  
+}
+
+.bottom5 button:hover {
+    background-color: #007BFF; 
+}

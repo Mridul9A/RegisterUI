@@ -1,0 +1,32 @@
+.upper-bar {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1c4670; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    gap: 15px;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+
+  .upper-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+  }
+  
+  .upper-bar a:hover {
+    color: #007BFF;
+  }
+  
+  .upper-bar i {
+    font-size: 16px;
+  }
+  

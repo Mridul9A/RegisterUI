@@ -1,0 +1,130 @@
+.appzone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c4670;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    height: 100%; 
+    color: #fff;
+  }
+  
+
+  .appzone-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px; 
+  }
+  
+  .appzone-left {
+    flex: 1;
+    padding: 20px 40px; 
+  }
+  
+  .appzone-left h1 {
+    font-size: 3rem; 
+    color: #fff;
+    margin-bottom: 25px;
+  }
+  
+  .appzone-left p {
+    font-size: 1.2rem; 
+    color: #fff;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .appzone-buttons h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 15px;
+  }
+  
+  .app-buttons {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .appstore-button,
+  .googleplay-button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px; 
+    font-size: 1.2rem; 
+    color: #000000;
+    border: 2px solid rgb(147, 194, 147);
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appstore-button:hover,
+  .googleplay-button:hover {
+    background-color: #e6f7e6; 
+  }
+  
+  .icon {
+    margin-right: 15px; 
+    font-size: 1.5rem; 
+  }
+  
+  .appzone-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .appzone-image {
+    width: 100%;
+    max-width: 450px; 
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .appzone-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .appzone-left {
+      padding: 10px;
+    }
+  
+    .app-buttons {
+      justify-content: center;
+    }
+  
+    .appzone-right {
+      margin-top: 20px;
+    }
+  
+    .appzone-image {
+      max-width: 300px;
+    }
+  }
+  
+
+  @media (min-width: 1200px) {
+    .appzone-content {
+      gap: 60px; 
+    }
+  
+    .appzone-left h1 {
+      font-size: 3.5rem;
+    }
+  
+    .appzone-left p {
+      font-size: 1.4rem;
+    }
+  
+    .appstore-button,
+    .googleplay-button {
+      padding: 20px 40px;
+      font-size: 1.3rem;
+    }
+  }
+  

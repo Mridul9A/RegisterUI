@@ -1,0 +1,84 @@
+.feedback-container {
+    padding: 40px;
+    background-color: #1c4670;
+    text-align: start;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+  }
+  
+  .feedback-heading {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .feedback-slider .slick-dots li button:before {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .feedback-slider .slick-dots li.slick-active button:before {
+    color: #000;
+  }
+  
+  .feedback-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feedback-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .feedback-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 2px solid #ffa229;
+  }
+  
+  .feedback-content h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-role {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .feedback-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  .feedback-rating {
+    font-size: 1.2rem;
+    color: #ffa229;
+  }
+  
+  .custom-arrow {
+    position: absolute;
+    z-index: 10;
+    font-size: 1.5rem;
+    color: #ffa229;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .custom-arrow:hover {
+    color: #ff8800;
+  }
+  
