@@ -16,7 +16,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import FrequentAskQuestion from './pages/FrequentAskQuestion';
 import AppZone from './pages/AppZone';
 import Data from './pages/Data';
-import Email from './pages/email';
+import Email from './pages/email'; 
 import Footer from './pages/Footer';
 // import CompanyLogo from './pages/CompanyLogo';
 
